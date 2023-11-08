@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WGI 2017 STATS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="wgi 2017 statistics">
+    </head>
+    <body>
+        <div class="navbar-container">
+            <ul class="navbar">
+                <li class="hnbli" onclick="piwSIV()">PIW</li>
+                <li class="hnbli" onclick="pioSIV()">PIO</li>
+                <li class="hnbli" onclick="piaSIV()">PIA</li>
+                <li class="navbar-title"><strong>WGI 2017 Statistics</strong></li>
+                <li class="hrnbli" onclick="pswSIV()">PSW</li>
+                <li class="hrnbli" onclick="psoSIV()">PSO</li>
+                <li class="hrnbli" onclick="psaSIV()">PSA</li>
+            </ul>
+            <script>
+                function piwSIV() {
+                    document.getElementById("piw-scores").scrollIntoView({behavior: 'smooth'});
+                }
+                function pioSIV() {
+                    document.getElementById("pio-scores").scrollIntoView({behavior: 'smooth'});
+                }
+                function piaSIV() {
+                    document.getElementById("pia-scores").scrollIntoView({behavior: 'smooth'});
+                }
+                function pswSIV() {
+                    document.getElementById("psw-scores").scrollIntoView({behavior: 'smooth'});
+                }
+                function psoSIV() {
+                    document.getElementById("pso-scores").scrollIntoView({behavior: 'smooth'});
+                }
+                function psaSIV() {
+                    document.getElementById("psa-scores").scrollIntoView({behavior: 'smooth'});
+                }
+            </script>
+        </div>
+        <div id="piw-scores" class="scores-container">
+            <h2 class="p-title">PIW SCORES</h2>
+            <table class="scores">
+                <tr>
+                    <th><strong>Place</strong></th>
+                    <th><strong>Group</strong></th>
+                    <th><strong>Score</strong></th>
+                </tr>
+            </table>
+        </div>
+        <div id="pio-scores" class="scores-container">
+            <h2 class="p-title">PIO SCORES</h2>
+            <table class="scores">
+                <tr>
+                    <th><strong>Place</strong></th>
+                    <th><strong>Group</strong></th>
+                    <th><strong>Score</strong></th>
+                </tr>
+            </table>
+        </div>
+        <div id="pia-scores" class="scores-container">
+            <h2 class="p-title">PIA SCORES</h2>
+            <table class="scores">
+                <tr>
+                    <th><strong>Place</strong></th>
+                    <th><strong>Group</strong></th>
+                    <th><strong>Score</strong></th>
+                </tr>
+            </table>
+        </div>
+        <div id="psw-scores" class="scores-container">
+            <h2 class="p-title">PSW SCORES</h2>
+            <table class="scores">
+                <tr>
+                    <th><strong>Place</strong></th>
+                    <th><strong>Group</strong></th>
+                    <th><strong>Score</strong></th>
+                </tr>
+            </table>
+        </div>
+        <div id="pso-scores" class="scores-container">
+            <h2 class="p-title">PSO SCORES</h2>
+            <table class="scores">
+                <tr>
+                    <th><strong>Place</strong></th>
+                    <th><strong>Group</strong></th>
+                    <th><strong>Score</strong></th>
+                </tr>
+            </table>
+        </div>
+        <div id="psa-scores" class="scores-container">
+            <h2 class="p-title">PSA SCORES</h2>
+            <table class="scores">
+                <tr>
+                    <th><strong>Place</strong></th>
+                    <th><strong>Group</strong></th>
+                    <th><strong>Score</strong></th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
